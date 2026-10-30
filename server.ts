@@ -530,7 +530,10 @@ async function startServer() {
 
   // Mount Vite dev server in middleware mode
   const vite = await createViteServer({
-    server: { middlewareMode: true },
+    server: {
+      middlewareMode: true,
+      allowedHosts: true,
+    },
     appType: 'spa',
   });
   app.use(vite.middlewares);
