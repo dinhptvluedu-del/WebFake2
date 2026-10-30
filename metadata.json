@@ -1,0 +1,6 @@
+{
+  "name": "Veritas AI - Bi-LSTM Fake News Detection",
+  "description": "Production-grade Fake News Detection Web Application powered by a pre-trained Bidirectional LSTM deep learning model with contextual analysis, explainable AI, and comprehensive administrative analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
